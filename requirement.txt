@@ -1,0 +1,8 @@
+
+Sphinx==2.2.2
+sphinx-rtd-theme==0.4.3  # read the doc theme
+recommonmark==0.6.0      # surpport markdown
+jieba==0.39  # 中文搜索
+sphinx-autobuild==0.7.1  # autobuild when docs changes
+nbsphinx==0.5.0  # surpport ipynb
+sphinx-markdown-tables==0.0.10  # surpport markdown tables
