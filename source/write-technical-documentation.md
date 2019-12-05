@@ -71,5 +71,6 @@ Date: | 2019-12-05T10:30:36.793025+08:00
 - 《Technical Communication》
 - 《Developing Quality Technical Information》
 - [中文技术文档写作规范](https://github.com/ruanyf/document-style-guide)
+- [reStructuredText](http://docutils.sourceforge.net/rst.html)
 - [reST 语法参考](https://3vshej.cn/rstSyntax/index.html)
 - [Markdown 语法参考](https://www.markdownguide.org/)
