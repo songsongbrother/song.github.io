@@ -8,7 +8,10 @@ Welcome to blog-song's documentation!
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
+   :caption: topic
+
+   write-technical-documentation.md
+   build-website
 
 
 

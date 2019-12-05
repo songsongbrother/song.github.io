@@ -1,0 +1,439 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="zh" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="zh" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>如何写好技术文档 &mdash; blog-song 0.1.0 文档</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="Sphinx 搭建静态网站" href="build-website.html" />
+    <link rel="prev" title="Welcome to blog-song&#39;s documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> blog-song
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">topic</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">如何写好技术文档</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">技术文档目的</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">目标人群</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id4">如何让人看懂</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#id5">工具选择</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id6">文档格式</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id7">技术博客</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id9">文本格式</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id10">标题</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id11">文本</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id12">段落</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id13">数值</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id14">标点符号</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#id15">体系规范</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#readme">README 示例</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#id16">附录</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="build-website.html">Sphinx 搭建静态网站</a></li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">blog-song</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>如何写好技术文档</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/write-technical-documentation.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="id1">
+<h1>如何写好技术文档<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<table border="1" class="docutils">
+<thead>
+<tr>
+<th align="center">Author:</th>
+<th align="center">song</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Date:</td>
+<td align="center">2019-12-05T10:30:36.793025+08:00</td>
+</tr>
+</tbody>
+</table><div class="section" id="id2">
+<h2>技术文档目的<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>让人看懂</p>
+<ul class="simple">
+<li><p>目标人群</p></li>
+<li><p>如何让人看懂</p></li>
+</ul>
+</div>
+<div class="section" id="id3">
+<h2>目标人群<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>技术小白</p></li>
+<li><p>维护人员</p></li>
+<li><p>专业人员</p></li>
+</ul>
+</div>
+<div class="section" id="id4">
+<h2>如何让人看懂<a class="headerlink" href="#id4" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>把厚的做薄 —— 简洁</p></li>
+<li><p>逻辑清晰</p></li>
+<li><p>尽可能减少阅读时间</p></li>
+</ul>
+<div class="section" id="id5">
+<h3>工具选择<a class="headerlink" href="#id5" title="永久链接至标题">¶</a></h3>
+<p><code class="docutils literal notranslate"><span class="pre">工欲善其事，必先利其器</span></code></p>
+<div class="section" id="id6">
+<h4>文档格式<a class="headerlink" href="#id6" title="永久链接至标题">¶</a></h4>
+<ul class="simple">
+<li><p>reST</p></li>
+<li><p>Markdown</p></li>
+<li><p>Org-mode</p></li>
+</ul>
+<blockquote>
+<div><p>首选 Markdown，其次 reST</p>
+</div></blockquote>
+</div>
+<div class="section" id="id7">
+<h4>技术博客<a class="headerlink" href="#id7" title="永久链接至标题">¶</a></h4>
+<ul class="simple">
+<li><p>Github  + Github Page  + Jekyll | Sphinx</p></li>
+<li><p>Github  + Read The Docs + Sphinx</p></li>
+</ul>
+<blockquote>
+<div><p>静态博客框架 hexo、Jekyll、Octopress、Hugo、Sphinx
+动态一键部署 WordPress</p>
+</div></blockquote>
+<div class="section" id="id8">
+<h5>托管服务器<a class="headerlink" href="#id8" title="永久链接至标题">¶</a></h5>
+<ul class="simple">
+<li><p>Read The Docs https://docs.readthedocs.io/en/stable/index.html</p></li>
+<li><p>Github Page https://help.github.com/cn/github/working-with-github-pages</p></li>
+<li><p>Gitbook https://www.gitbook.com/</p></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="id9">
+<h3>文本格式<a class="headerlink" href="#id9" title="永久链接至标题">¶</a></h3>
+<div class="section" id="id10">
+<h4>标题<a class="headerlink" href="#id10" title="永久链接至标题">¶</a></h4>
+<ul class="simple">
+<li><p>标题分为四级</p></li>
+<li><p>一级标题下不能出现三级标题</p></li>
+<li><p>标题要避免孤立编号（即同级标题只有一个）</p></li>
+<li><p>下级标题不重复上一级标题的名字</p></li>
+<li><p>慎使用四级标题，尽量避免出现，保持层级的简单，防止出现过于复杂的章节</p></li>
+</ul>
+</div>
+<div class="section" id="id11">
+<h4>文本<a class="headerlink" href="#id11" title="永久链接至标题">¶</a></h4>
+<ul class="simple">
+<li><p>全角中文字符与半角英文字符之间，应有一个半角空格</p></li>
+<li><p>全角中文字符与半角阿拉伯数字之间，有没有半角空格都可，但必须保证风格统一，不能两种风格混杂</p></li>
+<li><p>英文单位若不翻译，单位前的阿拉伯数字与单位符号之间，应留出适当的空隙</p></li>
+<li><p>半角英文字符和半角阿拉伯数字，与全角标点符号之间不留空格</p></li>
+<li><p>避免使用长句</p></li>
+<li><p>尽量使用简单句和并列句，避免使用复合句</p></li>
+<li><p>同样一个意思，尽量使用肯定句表达，不使用否定句表达</p></li>
+<li><p>避免使用双重否定句</p></li>
+<li><p>尽量不使用被动语态，改为使用主动语态</p></li>
+<li><p>不使用非正式的语言风格</p></li>
+<li><p>不使用冷僻、生造或者文言文的词语，而要使用现代汉语的常用表达方式</p></li>
+<li><p>用对“的”、“地”、“得”</p></li>
+<li><p>......</p></li>
+</ul>
+</div>
+<div class="section" id="id12">
+<h4>段落<a class="headerlink" href="#id12" title="永久链接至标题">¶</a></h4>
+<ul class="simple">
+<li><p>一个段落只能有一个主题，或一个中心句子。</p></li>
+<li><p>段落的中心句子放在段首，对全段内容进行概述。后面陈述的句子为核心句服务。</p></li>
+<li><p>一个段落的长度不能超过七行，最佳段落长度小于等于四行。</p></li>
+<li><p>段落的句子语气要使用陈述和肯定语气，避免使用感叹语气。</p></li>
+<li><p>段落之间使用一个空行隔开。</p></li>
+<li><p>段落开头不要留出空白字符。</p></li>
+</ul>
+</div>
+<div class="section" id="id13">
+<h4>数值<a class="headerlink" href="#id13" title="永久链接至标题">¶</a></h4>
+<ul class="simple">
+<li><p>阿拉伯数字一律使用半角形式，不得使用全角形式</p></li>
+<li><p>数值为千位以上，应添加千分号（半角逗号）</p></li>
+<li><p>货币应为阿拉伯数字，并在数字前写出货币符号，或在数字后写出货币中文名称</p></li>
+<li><p>表示数值范围时，用～或——连接</p></li>
+</ul>
+</div>
+<div class="section" id="id14">
+<h4>标点符号<a class="headerlink" href="#id14" title="永久链接至标题">¶</a></h4>
+<ul class="simple">
+<li><p>中文语句的标点符号，均应该采取全角符号，这样可以与全角文字保持视觉的一致</p></li>
+<li><p>如果整句为英文，则该句使用英文/半角标点</p></li>
+<li><p>句号、问号、叹号、逗号、顿号、分号和冒号不得出现在一行之首</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id15">
+<h3>体系规范<a class="headerlink" href="#id15" title="永久链接至标题">¶</a></h3>
+<p>软件手册是一部完整的书，建议采用下面的结构。</p>
+<ul class="simple">
+<li><p><strong>简介</strong>（Introduction）： [必备] [文件] 提供对产品和文档本身的总体的、扼要的说明</p></li>
+<li><p><strong>快速上手</strong>（Getting Started）：[可选] [文件] 如何最快速地使用产品</p></li>
+<li><p><strong>入门篇</strong>（Basics）： [必备] [目录] 又称”使用篇“，提供初级的使用教程</p>
+<ul>
+<li><p><strong>环境准备</strong>（Prerequisite）：[必备] [文件] 软件使用需要满足的前置条件</p></li>
+<li><p><strong>安装</strong>（Installation）：[可选] [文件] 软件的安装方法</p></li>
+<li><p><strong>设置</strong>（Configuration）：[必备] [文件] 软件的设置</p></li>
+</ul>
+</li>
+<li><p><strong>进阶篇</strong>（Advanced)：[可选] [目录] 又称”开发篇“，提供中高级的开发教程</p></li>
+<li><p><strong>API</strong>（Reference）：[可选] [目录|文件] 软件 API 的逐一介绍</p></li>
+<li><p><strong>FAQ</strong>：[可选] [文件] 常见问题解答</p></li>
+<li><p><strong>附录</strong>（Appendix）：[可选] [目录] 不属于教程本身、但对阅读教程有帮助的内容</p>
+<ul>
+<li><p><strong>Glossary</strong>：[可选] [文件] 名词解释</p></li>
+<li><p><strong>Recipes</strong>：[可选] [文件] 最佳实践</p></li>
+<li><p><strong>Troubleshooting</strong>：[可选] [文件] 故障处理</p></li>
+<li><p><strong>ChangeLog</strong>：[可选] [文件] 版本说明</p></li>
+<li><p><strong>Feedback</strong>：[可选] [文件] 反馈方式</p></li>
+</ul>
+</li>
+</ul>
+<p>下面是两个真实范例，可参考。</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://redux.js.org/index.html">Redux 手册</a></p></li>
+<li><p><a class="reference external" href="http://flight-manual.atom.io/">Atom 手册</a></p></li>
+</ul>
+<blockquote>
+<div><ul class="simple">
+<li><p>文件名不得为中文，建议小写，特殊情况大写</p></li>
+<li><p>文件名包含多个单词时，用  <code class="docutils literal notranslate"><span class="pre">-</span></code> 分隔</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="readme">
+<h3>README 示例<a class="headerlink" href="#readme" title="永久链接至标题">¶</a></h3>
+<ul class="simple">
+<li><p>standard readme https://github.com/RichardLitt/standard-readme/blob/master/README.cn.md</p></li>
+<li><p>README-Template https://gist.github.com/PurpleBooth/109311bb0361f32d87a2</p></li>
+<li><p>art of readme https://github.com/noffle/art-of-readme</p></li>
+<li><p>awesome readme https://github.com/matiassingers/awesome-readme</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id16">
+<h2>附录<a class="headerlink" href="#id16" title="永久链接至标题">¶</a></h2>
+<ul class="simple">
+<li><p>《Technical Communication》</p></li>
+<li><p>《Developing Quality Technical Information》</p></li>
+<li><p><a class="reference external" href="https://github.com/ruanyf/document-style-guide">中文技术文档写作规范</a></p></li>
+<li><p>reST 语法参考 https://3vshej.cn/rstSyntax/index.html</p></li>
+<li><p>Markdown 语法参考 https://www.markdownguide.org/</p></li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="build-website.html" class="btn btn-neutral float-right" title="Sphinx 搭建静态网站" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to blog-song&#39;s documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, song
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

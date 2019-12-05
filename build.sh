@@ -22,6 +22,6 @@ fi
 cp -av build/html/* blog
 # compatible with github jekyll
 # python ../../sphinxtogithub.py ../../blog
-cp -av .nojekyll blog/
+# cp -av .nojekyll blog/
 
 rm -r build
