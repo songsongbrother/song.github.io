@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <!--[if IE 8]><html class="no-js lt-ie9" lang="zh" > <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="zh" > <!--<![endif]-->
@@ -9,7 +8,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>索引 &mdash; blog-song 0.1.0 文档</title>
+  <title>标题 &mdash; blog-song 0.1.0 文档</title>
   
 
   
@@ -35,8 +34,10 @@
   
   <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
   <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
-    <link rel="index" title="索引" href="#" />
-    <link rel="search" title="搜索" href="search.html" /> 
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="文本" href="text.html" />
+    <link rel="prev" title="Sphinx 搭建静态网站" href="build-website.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -86,8 +87,12 @@
 <li class="toctree-l1"><a class="reference internal" href="build-website.html">Sphinx 搭建静态网站</a></li>
 </ul>
 <p class="caption"><span class="caption-text">中文技术文档的写作规范</span></p>
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="title.html">标题</a></li>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">标题</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#id2">层级</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id3">原则</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="text.html">文本</a></li>
 <li class="toctree-l1"><a class="reference internal" href="paragraph.html">段落</a></li>
 <li class="toctree-l1"><a class="reference internal" href="number.html">数值</a></li>
@@ -139,12 +144,14 @@
     
       <li><a href="index.html">Docs</a> &raquo;</li>
         
-      <li>索引</li>
+      <li>标题</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
             
+            <a href="_sources/title.md.txt" rel="nofollow"> View page source</a>
+          
         
       </li>
     
@@ -156,11 +163,102 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
 
-<h1 id="index">索引</h1>
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
 
-<div class="genindex-jumpbox">
- 
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<div class="section" id="id1">
+<h1>标题<a class="headerlink" href="#id1" title="永久链接至标题">¶</a></h1>
+<div class="section" id="id2">
+<h2>层级<a class="headerlink" href="#id2" title="永久链接至标题">¶</a></h2>
+<p>标题分为四级。</p>
+<ul class="simple">
+<li><p>一级标题：文章的标题</p></li>
+<li><p>二级标题：文章主要部分的大标题</p></li>
+<li><p>三级标题：二级标题下面一级的小标题</p></li>
+<li><p>四级标题：三级标题下面某一方面的小标题</p></li>
+</ul>
+<p>下面是示例。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># 一级标题</span>
+
+<span class="c1">## 二级标题</span>
+
+<span class="c1">### 三级标题</span>
+
+<span class="c1">#### 四级标题</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="id3">
+<h2>原则<a class="headerlink" href="#id3" title="永久链接至标题">¶</a></h2>
+<p>（1）一级标题下，不能直接出现三级标题。</p>
+<p>示例：下面的文章结构，缺少二级标题。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># 一级标题</span>
+
+<span class="c1">### 三级标题</span>
+</pre></div>
+</div>
+<p>（2）标题要避免孤立编号（即同级标题只有一个）。</p>
+<p>示例：下面的文章结构，<code class="docutils literal notranslate"><span class="pre">二级标题</span> <span class="pre">A</span></code>只包含一个三级标题，完全可以省略<code class="docutils literal notranslate"><span class="pre">三级标题</span> <span class="pre">A</span></code>。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## 二级标题 A</span>
+
+<span class="c1">### 三级标题 A</span>
+
+<span class="c1">## 二级标题 B</span>
+</pre></div>
+</div>
+<p>（3）下级标题不重复上一级标题的名字。</p>
+<p>示例：下面的文章结构，二级标题与下属的三级标题同名，建议避免。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">## 概述</span>
+
+<span class="c1">### 概述</span>
+</pre></div>
+</div>
+<p>（4）谨慎使用四级标题，尽量避免出现，保持层级的简单，防止出现过于复杂的章节。</p>
+<p>如果三级标题下有并列性的内容，建议只使用项目列表（Item list）。</p>
+<p>示例：下面的结构二要好于结构一。结构一适用的场景，主要是较长篇幅的内容。</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>结构一
+
+### 三级标题
+
+#### 四级标题 A
+
+#### 四级标题 B
+
+#### 四级标题 C
+
+结构二
+
+### 三级标题
+
+**（1）A**
+
+**（2）B**
+
+**（3）C**
+</pre></div>
+</div>
+</div>
 </div>
 
 
@@ -168,6 +266,15 @@
            
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="text.html" class="btn btn-neutral float-right" title="文本" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right"></span></a>
+      
+      
+        <a href="build-website.html" class="btn btn-neutral float-left" title="Sphinx 搭建静态网站" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
